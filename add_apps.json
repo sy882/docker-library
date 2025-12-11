@@ -1,23 +1,24 @@
 [
   {
-    "name": "langfuse",
-    "trademark": "Langfuse",
-    "release": false,
-    "fork_url": "https://github.com/langfuse/langfuse",
-    "version_from": "https://hub.docker.com/r/langfuse/langfuse/tags",
-    "edition": [
-      {
-        "dist": "community",
-        "version": [
-          "latest"
-        ]
-      }
-    ],
-    "requirements": {
-      "cpu": "2",
-      "memory": "4",
-      "disk": "10",
-      "url": "https://langfuse.com"
+  "name": "akeneo",
+  "trademark": "Akeneo",
+  "release": false,
+  "fork_url": "https://github.com/akeneo/pim-community-dev",
+  "edition": [
+    {
+      "dist": "community",
+      "version": [
+        "v7.0.22",
+        "latest"
+      ]
     }
+  ],
+  "requirements": {
+    "cpu": "2",
+    "memory": "4",
+    "disk": "1",
+    "url": "https://github.com/akeneo/docker"
   }
+}
+
 ]
